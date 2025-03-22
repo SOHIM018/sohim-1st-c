@@ -1,0 +1,12 @@
+
+#include<math.h>
+#include<stdio.h>
+int main()
+{
+    double a, squareRoot;
+    scanf("%lf", &a);
+    squareRoot= sqrt(a);
+    printf("Square root of %.2lf = %.2lf\n", a, squareRoot);
+
+    return 0;
+}
