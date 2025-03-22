@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    double num, square;
+    scanf("%lf", &num);
+    square=num*num;
+    printf("%lf",square);
+    return 0;
+}
