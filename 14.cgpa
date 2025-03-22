@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int num;
+    scanf("%d",&num);
+    if(num>=80 &&num<=100)
+        printf("A+, cgpa:4.00");
+    else if(num>=75)
+        printf("A, cgpa:3.75");
+    else if (num>=70)
+        printf("A-, cgpa:3.50");
+    return 0;
+}
